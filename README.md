@@ -1,31 +1,79 @@
 # Experimental-Verification-and-Analysis-of-Sorting-Algorithms
 
-# Development Plan
+# How to Use It 
 
-Define the project requirements: Read and understand the project requirements, the sorting algorithms that need to be implemented, and the method of verification.
+You need to download or clone this repository to your machine, and then run the source files in the Code Directory.
 
-Design the system: Develop a plan for the software system. This includes designing the architecture, creating the UML diagrams, and creating class structure and header files.
+The output will be displayed in a text file in the code Directory (Output.txt) such as the one on this repository (Output.md). 
 
-Generate Random Permutation Vectors (RPA): Implement a function to generate RPA for the first N integers in the vector. This should ensure that all integers from 1 to N are present but in a random order, with no integer missing and no integer duplicated.
+# Algorithms
 
-Implement Sorting Algorithms: Implement the selection sort, insertion sort, merge sort, quick sort with the first element, random element, and median elemnt as the pivot, shell sort, bubble sort, counting sort, heap sort, and tree sort. 
-Add counters to each algorithm to count the number of element comparisons.
+It has a [Algorithm].md file for each sorting algorithm used in the project for studying reference. The files explain the concept of the sorting algorithm. 
 
-Count the Number of Vector Element Comparisons: Introduce a counter inside the code to count the number of array element comparisons done by the algorithm at the end of the sorting process.
+It has a Time Complexity.md file for studying reference. This file explains the concept of time complexity. 
 
-Conduct Experiments: Conduct 6 different experiments, using 10 different vector sizes (N = 1000, 2000, 3000, 5000, 7000, 10000, 13000, 16000, 20000, 24000), for each of the 9 sorting algorithms. For each experiment, find Texp(N) (the number of vector element comparisons that you counted as done by the algorithm for each of the 10 vector sizes N).
+It has a Mathematical Models.md file for studying reference. This file lists the mathematical model for each sorting algorithm. 
 
-Compare Experimental and Expected Results: Compare the experimental results with those expected Tmodel(N) from the mathematical modeling of the algorithm. Show the comparison in tables and graphical form.
+It has a Algorithms Implementations.cpp file for studying reference. This file shows how to implement all the sorting algorithms in C++. 
 
-Analyze the Results: Provide an analysis of the results in comparison with those expected from the mathematical modeling of the algorithms. Use Tmodel(N) for the tested algorithms, given in Appendix 3.
+# Analysis Results Graphs
 
-Develop the Final Report: Develop the final report of the project in the format provided. Include all UML diagrams, class structure and class header files, source code, and a small readme with your names, IDs, and sections you are registered in.
+It has a [Algorithm].png file for each sorting algorithm used in the project, including the outcome graph after the analysis. 
 
-Milestone #1 (April 24th): Deliver all UML diagrams, class structure and class header
-files for your project, as well as a small readme with your names, IDs, and sections you are
-registered in.
+# Analysis Results 
 
-Milestone #2 (May 13th): You are to deliver a final report of the
-project as in the attached format, as well as all source code.
+It has a [Algorithm].xlsx file for each sorting algorithm used in the project, including the outcome table and graph after the analysis. 
+
+# Code Directory
+
+BubbleSort.cpp and BubbleSort.h, which are the header and source files of the class Bubble Sort.
+
+CountingSort.cpp and CountingSort.h, which are the header and source files of the class Counting Sort.
+
+HeapSort.cpp and HeapSort.h, which are the header and source files of the class Heap Sort.
+
+InsertionSort.cpp and InsertionSort.h, which are the header and source files of the class Insertion Sort.
+
+MergeSort.cpp and MergeSort.h, which are the header and source files of the class Merge Sort.
+
+QuickSortFirstPivot.cpp and QuickSortFirstPivot.h, which are the header and source files of the class Quick Sort First Pivot.
+
+QuickSortMedianPivot.cpp and QuickSortMedianPivot.h, which are the header and source files of the class Quick Sort Median Pivot.
+
+QuickSortRandomPivot.cpp and QuickSortRandomPivot.h, which are the header and source files of the class Quick Sort Random Pivot.
+
+RandomPermutationVectorGenerator.cpp and RandomPermutationVectorGenerator.h, which are the header and source files of the class Random Permutation Vector Generator.
+
+SelectionSort.cpp and SelectionSort.h, which are the header and source files of the class Selection Sort.
+
+ShellSort.cpp and ShellSort.h, which are the header and source files of the class Shell Sort.
+
+SortTester.cpp and SortTester.h, which are the header and source files of the class Sort Tester.
+
+SortingAlgorithm.cpp and SortingAlgorithm.h, which are the header and source files of the class Sorting Algorithm.
+
+TreeSort.cpp and TreeSort.h, which are the header and source files of the class Tree Sort.
+
+Analysis.cpp, which includes the main function of the program. 
+
+# Design Directory 
+
+You will find the UML Class Diagram of the Project as Analysis of Sorting Algorithms UML.jpg
+
+You will find the Architecture Design of the project's classes as Architecture Design.md
+
+# Group.md
+
+You will find our Names and IDs in that file. 
+
+# Output.md
+
+You will find a sample of the program output in that file. 
+
+# RPA Directory
+
+It has a RPA.md and RPA.cpp for studying reference. The files explain the concept of RPA and how to implement it in C++. 
+
+
 
 

@@ -1,4 +1,4 @@
-# Detailed Architecture Design of Classes 
+# Architecture Design 
 
 Class: SortingAlgorithm
 Description: Base class for sorting algorithms, defines the interface that all sorting algorithms must implement.

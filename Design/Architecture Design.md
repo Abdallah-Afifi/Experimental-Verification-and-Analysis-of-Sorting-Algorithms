@@ -125,6 +125,7 @@ Description: Utility class for generating random permutation vectors of the firs
 Properties: None
 Methods:
 - GenerateVector: Generates a random permutation vector of size N, where N is the input parameter 'size'. Returns the generated vector.
+- GetEntropy: Gets the entropy of a vector and returns it as a double.
 
 Class: SortTester
 Description: Utility class for testing sorting algorithms using random permutation arrays of various sizes

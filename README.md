@@ -70,9 +70,7 @@ You will find our Names and IDs in that file.
 
 You will find a sample of the program output in that file. 
 
-# RPA Directory
 
-It has a RPA.md and RPA.cpp for studying reference. The files explain the concept of RPA and how to implement it in C++. 
 
 
 
